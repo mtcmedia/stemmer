@@ -1,0 +1,24 @@
+{
+    "name": "mtcmedia/stemmer",
+    "description": "Exension of wamania stemmer with multi-word support and cleanup",
+    "keywords": [
+        "stemmer",
+        "stem"
+    ],
+    "require": {
+        "php": ">=7.1",
+        "wamania/php-stemmer": "^1.2"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mtc\\Stemmer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Martins Fridenbergs",
+            "email": "martins.fridenbergs@mtcmedia.co.uk"
+        }
+    ]
+}
