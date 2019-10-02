@@ -5,6 +5,7 @@ use Mtc\Stemmer\Cleaner;
 use PHPUnit\Framework\TestCase;
 
 /**
+ * 
  * @author William Cameron
  * @package Mtc\Stemmer
  */
