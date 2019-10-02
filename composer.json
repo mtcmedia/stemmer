@@ -20,5 +20,8 @@
             "name": "Martins Fridenbergs",
             "email": "martins.fridenbergs@mtcmedia.co.uk"
         }
-    ]
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^8.3"
+    }
 }

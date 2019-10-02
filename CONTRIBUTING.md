@@ -7,4 +7,5 @@ Guidelines:
 * Add docblocks for methods
 
 ##Authors
-Martins Fridenbergs 
+* Martins Fridenbergs 
+* William Cameron
