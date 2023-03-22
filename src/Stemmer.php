@@ -43,11 +43,11 @@ class Stemmer
      */
     public static function stem($word = '', $language = 'english')
     {
-        $class_name = 'Wamania\\Snowball\\' . ucfirst($language);
+        $class_name = 'Wamania\\Snowball\\Stemmer\\' . ucfirst($language);
         if (class_exists($class_name)) {
-            return (new $class_name)->stem($word);
+            return (new $class_name)->stem(strtolower($word));
         }
-        return $word;
+        return strtolower($word);
     }
 
     /**

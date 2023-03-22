@@ -6,8 +6,8 @@
         "stem"
     ],
     "require": {
-        "php": ">=7.1",
-        "wamania/php-stemmer": "^1.2"
+        "php": ">=7.3",
+        "wamania/php-stemmer": "^3.0"
     },
     "license": "MIT",
     "autoload": {
